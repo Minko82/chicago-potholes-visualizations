@@ -14,7 +14,7 @@ This project explores how Chicago’s pothole data reflects social and demograph
 
 ## ✨ **Context**
 
-The data includes pothole complaints from Chicago’s 311 Service Requests, population demographics (race and age), and the Covid-19 Community Vulnerability Index (CCVI). This combined dataset provides insights into how infrastructure issues align with socioeconomic and demographic factors across Chicago neighborhoods.
+This dashboard provides insights into how infrastructure issues align with socioeconomic and demographic factors across Chicago neighborhoods.
 
 <br>
 
@@ -46,4 +46,20 @@ The data includes pothole complaints from Chicago’s 311 Service Requests, popu
 - **Altair**: For creating interactive visualizations.  
 - **Pandas**: For data preprocessing and manipulation.  
 - **GeoJSON**: For geographic data visualization.  
-- **Viridis Color Scale**: For accessible, colorblind-friendly palettes.  
+- **Viridis Color Scale**: For accessible, colorblind-friendly palettes.
+
+<br>
+
+---
+
+## 🚀 **How to Use**
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Minko82/Chicago-Potholes-Visualizations.git
+   ```
+2. Open the Jupyter Notebook to interactively explore the data and visualizations:
+   ```bash
+   jupyter notebook notebook/chicago_potholes.ipynb
+   ```
+
