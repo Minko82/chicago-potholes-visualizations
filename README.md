@@ -50,16 +50,53 @@ This dashboard provides insights into how infrastructure issues align with socio
 
 <br>
 
+
 ---
 
 ## 🚀 **How to Use**
 
-1. Clone the repository:  
+### **Option 1: Run with Google Colab (Recommended)**
+1. Upload the **chicago_potholes.ipynb** notebook to Google Colab
+   
+2. Update Altair:
+   
+   If you’re running the project in Google Colab, update your Altair version to avoid compatibility issues. Run the following line of code in a Colab cell:
    ```bash
-   git clone https://github.com/Minko82/Chicago-Potholes-Visualizations.git
-   ```
-2. Open the Jupyter Notebook to interactively explore the data and visualizations:
-   ```bash
-   jupyter notebook notebook/chicago_potholes.ipynb
+   pip install -U altair vega_datasets
    ```
 
+   After running this, go to **Runtime > Restart Runtime** in the Colab menu.
+
+3. Run the Notebook:
+   
+   Execute all cells in the notebook to generate visualizations and analyze data.
+
+---
+
+### **Option 2: Run with Jupyter Notebook**
+1. Clone and open the repository:  
+   ```bash
+   git clone https://github.com/Minko82/Chicago-Potholes-Visualizations.git
+   cd Chicago-Potholes-Visualizations/notebook
+   ```
+
+2. Launch the Notebook:
+
+   ```bash
+   jupyter notebook chicago_potholes.ipynb
+   ```
+   
+---
+
+### **Option 3: Run with Python Command Line**
+
+1. Clone and open the repository:  
+   ```bash
+   git clone https://github.com/Minko82/Chicago-Potholes-Visualizations.git
+   cd Chicago-Potholes-Visualizations/scripts
+   ```
+
+2. Run desired Python scripts from the Command Line:
+   ```bash
+   python final_version.py
+   ```
